@@ -103,74 +103,74 @@ Note that the variable names have been edited for clarity/readability.  The foll
 
 
 Here is a complete list of the variables in the tidy data set:
-subject.id
-activity
-time.body.acceleration.mean.x.average
-time.body.acceleration.mean.y.average
-time.body.acceleration.mean.z.average
-time.gravity.acceleration.mean.x.average
-time.gravity.acceleration.mean.y.average
-time.gravity.acceleration.mean.z.average
-time.body.acceleration.jerk.mean.x.average
-time.body.acceleration.jerk.mean.y.average
-time.body.acceleration.jerk.mean.z.average
-time.body.gyro.mean.x.average
-time.body.gyro.mean.y.average
-time.body.gyro.mean.z.average
-time.body.gyro.jerk.mean.x.average
-time.body.gyro.jerk.mean.y.average
-time.body.gyro.jerk.mean.z.average
-time.body.acceleration.magnitude.mean.average
-time.gravity.acceleration.magnitude.mean.average
-time.body.acceleration.jerk.magnitude.mean.average
-time.body.gyro.magnitude.mean.average
-time.body.gyro.jerk.magnitude.mean.average
-freq.body.acceleration.mean.x.average
-freq.body.acceleration.mean.y.average
-freq.body.acceleration.mean.z.average
-freq.body.acceleration.jerk.mean.x.average
-freq.body.acceleration.jerk.mean.y.average
-freq.body.acceleration.jerk.mean.z.average
-freq.body.gyro.mean.x.average
-freq.body.gyro.mean.y.average
-freq.body.gyro.mean.z.average
-freq.body.acceleration.magnitude.mean.average
-freq.body.acceleration.jerk.magnitude.mean.average
-freq.body.gyro.magnitude.mean.average
-freq.body.gyro.jerk.magnitude.mean.average
-time.body.acceleration.std.x.average
-time.body.acceleration.std.y.average
-time.body.acceleration.std.z.average
-time.gravity.acceleration.std.x.average
-time.gravity.acceleration.std.y.average
-time.gravity.acceleration.std.z.average
-time.body.acceleration.jerk.std.x.average
-time.body.acceleration.jerk.std.y.average
-time.body.acceleration.jerk.std.z.average
-time.body.gyro.std.x.average
-time.body.gyro.std.y.average
-time.body.gyro.std.z.average
-time.body.gyro.jerk.std.x.average
-time.body.gyro.jerk.std.y.average
-time.body.gyro.jerk.std.z.average
-time.body.acceleration.magnitude.std.average
-time.gravity.acceleration.magnitude.std.average
-time.body.acceleration.jerk.magnitude.std.average
-time.body.gyro.magnitude.std.average
-time.body.gyro.jerk.magnitude.std.average
-freq.body.acceleration.std.x.average
-freq.body.acceleration.std.y.average
-freq.body.acceleration.std.z.average
-freq.body.acceleration.jerk.std.x.average
-freq.body.acceleration.jerk.std.y.average
-freq.body.acceleration.jerk.std.z.average
-freq.body.gyro.std.x.average
-freq.body.gyro.std.y.average
-freq.body.gyro.std.z.average
-freq.body.acceleration.magnitude.std.average
-freq.body.acceleration.jerk.magnitude.std.average
-freq.body.gyro.magnitude.std.average
-freq.body.gyro.jerk.magnitude.std.average
+* subject.id
+* activity
+* time.body.acceleration.mean.x.average
+* time.body.acceleration.mean.y.average
+* time.body.acceleration.mean.z.average
+* time.gravity.acceleration.mean.x.average
+* time.gravity.acceleration.mean.y.average
+* time.gravity.acceleration.mean.z.average
+* time.body.acceleration.jerk.mean.x.average
+* time.body.acceleration.jerk.mean.y.average
+* time.body.acceleration.jerk.mean.z.average
+* time.body.gyro.mean.x.average
+* time.body.gyro.mean.y.average
+* time.body.gyro.mean.z.average
+* time.body.gyro.jerk.mean.x.average
+* time.body.gyro.jerk.mean.y.average
+* time.body.gyro.jerk.mean.z.average
+* time.body.acceleration.magnitude.mean.average
+* time.gravity.acceleration.magnitude.mean.average
+* time.body.acceleration.jerk.magnitude.mean.average
+* time.body.gyro.magnitude.mean.average
+* time.body.gyro.jerk.magnitude.mean.average
+* freq.body.acceleration.mean.x.average
+* freq.body.acceleration.mean.y.average
+* freq.body.acceleration.mean.z.average
+* freq.body.acceleration.jerk.mean.x.average
+* freq.body.acceleration.jerk.mean.y.average
+* freq.body.acceleration.jerk.mean.z.average
+* freq.body.gyro.mean.x.average
+* freq.body.gyro.mean.y.average
+* freq.body.gyro.mean.z.average
+* freq.body.acceleration.magnitude.mean.average
+* freq.body.acceleration.jerk.magnitude.mean.average
+* freq.body.gyro.magnitude.mean.average
+* freq.body.gyro.jerk.magnitude.mean.average
+* time.body.acceleration.std.x.average
+* time.body.acceleration.std.y.average
+* time.body.acceleration.std.z.average
+* time.gravity.acceleration.std.x.average
+* time.gravity.acceleration.std.y.average
+* time.gravity.acceleration.std.z.average
+* time.body.acceleration.jerk.std.x.average
+* time.body.acceleration.jerk.std.y.average
+* time.body.acceleration.jerk.std.z.average
+* time.body.gyro.std.x.average
+* time.body.gyro.std.y.average
+* time.body.gyro.std.z.average
+* time.body.gyro.jerk.std.x.average
+* time.body.gyro.jerk.std.y.average
+* time.body.gyro.jerk.std.z.average
+* time.body.acceleration.magnitude.std.average
+* time.gravity.acceleration.magnitude.std.average
+* time.body.acceleration.jerk.magnitude.std.average
+* time.body.gyro.magnitude.std.average
+* time.body.gyro.jerk.magnitude.std.average
+* freq.body.acceleration.std.x.average
+* freq.body.acceleration.std.y.average
+* freq.body.acceleration.std.z.average
+* freq.body.acceleration.jerk.std.x.average
+* freq.body.acceleration.jerk.std.y.average
+* freq.body.acceleration.jerk.std.z.average
+* freq.body.gyro.std.x.average
+* freq.body.gyro.std.y.average
+* freq.body.gyro.std.z.average
+* freq.body.acceleration.magnitude.std.average
+* freq.body.acceleration.jerk.magnitude.std.average
+* freq.body.gyro.magnitude.std.average
+* freq.body.gyro.jerk.magnitude.std.average
 
 
 
