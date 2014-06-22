@@ -21,9 +21,9 @@ From this original data set, all the variables expressing mean and standard devi
 
 Instructions for use:
 
-1) Start from a folder containg the folderthat contains the unzipped UCI HAR Dataset (can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).  
-2) The working directory should contain 2 folders (test & train) and 4 files.
-3) Run run_analysis.R (run_analysis.R was developed with R version 3.0.3)
-4) Output is called TidyData.txt
+1. Start from a folder containg the folderthat contains the unzipped UCI HAR Dataset (can be downloaded from https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).  
+2. The working directory should contain 2 folders (test & train) and 4 files.
+3. Run run_analysis.R (run_analysis.R was developed with R version 3.0.3)
+4. Output is called TidyData.txt.  The text file separator is a space (" ").
 
 This repository contains a codebook which describes all variables in detail. 
