@@ -39,51 +39,51 @@ Finally a Fast Fourier Transform (FFT) was applied to some of these signals prod
 These signals were used to estimate variables of the feature vector for each pattern:  
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
-tBodyAcc-XYZ
-tGravityAcc-XYZ
-tBodyAccJerk-XYZ
-tBodyGyro-XYZ
-tBodyGyroJerk-XYZ
-tBodyAccMag
-tGravityAccMag
-tBodyAccJerkMag
-tBodyGyroMag
-tBodyGyroJerkMag
-fBodyAcc-XYZ
-fBodyAccJerk-XYZ
-fBodyGyro-XYZ
-fBodyAccMag
-fBodyAccJerkMag
-fBodyGyroMag
-fBodyGyroJerkMag
+* tBodyAcc-XYZ
+* tGravityAcc-XYZ
+* tBodyAccJerk-XYZ
+* tBodyGyro-XYZ
+* tBodyGyroJerk-XYZ
+* tBodyAccMag
+* tGravityAccMag
+* tBodyAccJerkMag
+* tBodyGyroMag
+* tBodyGyroJerkMag
+* fBodyAcc-XYZ
+* fBodyAccJerk-XYZ
+* fBodyGyro-XYZ
+* fBodyAccMag
+* fBodyAccJerkMag
+* fBodyGyroMag
+* fBodyGyroJerkMag
 
 The set of variables that were estimated from these signals are: 
 
-mean(): Mean value
-std(): Standard deviation
-mad(): Median absolute deviation 
-max(): Largest value in array
-min(): Smallest value in array
-sma(): Signal magnitude area
-energy(): Energy measure. Sum of the squares divided by the number of values. 
-iqr(): Interquartile range 
-entropy(): Signal entropy
-arCoeff(): Autorregresion coefficients with Burg order equal to 4
-correlation(): correlation coefficient between two signals
-maxInds(): index of the frequency component with largest magnitude
-meanFreq(): Weighted average of the frequency components to obtain a mean frequency
-skewness(): skewness of the frequency domain signal 
-kurtosis(): kurtosis of the frequency domain signal 
-bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
-angle(): Angle between to vectors.
+* mean(): Mean value
+* std(): Standard deviation
+* mad(): Median absolute deviation 
+* max(): Largest value in array
+* min(): Smallest value in array
+* sma(): Signal magnitude area
+* energy(): Energy measure. Sum of the squares divided by the number of values. 
+* iqr(): Interquartile range 
+* entropy(): Signal entropy
+* arCoeff(): Autorregresion coefficients with Burg order equal to 4
+* correlation(): correlation coefficient between two signals
+* maxInds(): index of the frequency component with largest magnitude
+* meanFreq(): Weighted average of the frequency components to obtain a mean frequency
+* skewness(): skewness of the frequency domain signal 
+* kurtosis(): kurtosis of the frequency domain signal 
+* bandsEnergy(): Energy of a frequency interval within the 64 bins of the FFT of each window.
+* angle(): Angle between to vectors.
 
 Additional vectors obtained by averaging the signals in a signal window sample. These are used on the angle() variable:
 
-gravityMean
-tBodyAccMean
-tBodyAccJerkMean
-tBodyGyroMean
-tBodyGyroJerkMean
+* gravityMean
+* tBodyAccMean
+* tBodyAccJerkMean
+* tBodyGyroMean
+* tBodyGyroJerkMean
 
 The complete list of variables of each feature vector is available in 'features.txt'
 
@@ -93,10 +93,10 @@ Processing and description of the Tidy Data Set
 Only the values representing the mean and standard deviation were extracted and placed in the tidy dataset. There are 30 subjects and 6 activities, in the resulting tidy data set the mean and standard deviation measurements over a given subject/activity have been averaged. The resulting tidy data set has 180 lines.
 
 Note that the variable names have been edited for clarity/readability.  The following style guidelines have been used:
-1) parentheses have been removed
-2) capitals have been removed
-3) periods have been placed between words, while this is usually not desirable it was thought necessary for readability
-4) words have been spelled out for readability:
+1. parentheses have been removed
+2. capitals have been removed
+3. periods have been placed between words, while this is usually not desirable it was thought necessary for readability
+4. words have been spelled out for readability:
 	the prefixes "t" and "f" to denote time domain and frequency domain have been replaced with "time" and "freq"
  	"acc" has become "accleration"
  	"mag" has become "magnitude"
